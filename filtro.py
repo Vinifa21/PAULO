@@ -33,8 +33,8 @@ def filtrar_dataset_steam(caminho_csv_original, caminho_csv_novo):
     print(f"O novo dataset tem {df_filtrado.shape[1]} colunas e {df_filtrado.shape[0]} linhas.")
 
 
-if __name__ == "__main__":
-    ficheiro_original = '/home/vini21/projetos/AM2/PAULO/games_march2025_cleaned.csv' 
-    ficheiro_novo = 'steam_filtrado.csv'
+
+ficheiro_original = '/home/vini21/projetos/AM2/PAULO/games_march2025_cleaned.csv' 
+ficheiro_novo = 'steam_filtrado.csv'
     
-    filtrar_dataset_steam(ficheiro_original, ficheiro_novo)
+filtrar_dataset_steam(ficheiro_original, ficheiro_novo)
